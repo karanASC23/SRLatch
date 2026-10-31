@@ -1,0 +1,42 @@
+$date
+	Sat Oct 31 18:01:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testBench_SRLatch $end
+$var wire 1 ! nQ $end
+$var wire 1 " Q $end
+$var reg 1 # R $end
+$var reg 1 $ S $end
+$scope module dut $end
+$var wire 1 " Q $end
+$var wire 1 # R $end
+$var wire 1 $ S $end
+$var wire 1 ! nQ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+0#
+1"
+1!
+$end
+#10000
+0"
+1$
+#20000
+1#
+#30000
+0!
+1"
+0$
+#40000

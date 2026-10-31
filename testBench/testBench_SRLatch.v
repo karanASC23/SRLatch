@@ -5,11 +5,11 @@ module testBench_SRLatch;
 	reg S, R;
 	wire Q, nQ;
 	
-	SRLatch dut (.S(S), .R(R), .Q(Q), .nQ(nQ);	// dut(decive under test)  .pin(signal)
+	SRLatch dut (.S(S), .R(R), .Q(Q), .nQ(nQ));	// dut(decive under test)  .pin(signal)
 
 	initial begin
 		$dumpfile("SRLatch.vcd"); //GTWave
-		$dumpvars(0, testbench_SRLatch.v); //GTWave
+		$dumpvars(0, testBench_SRLatch); //GTWave
 		$monitor("t=%0t S=%b R=%b | Q=%b nQ=%b", $time, S, R, Q, nQ); //%b is print in binary
 
 		S = 0; R = 0; #10;

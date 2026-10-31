@@ -1,4 +1,4 @@
-module SRlatch( 
+module SRLatch( 
 
 	input wire S,	
 	input wire R,
