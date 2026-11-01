@@ -1,4 +1,4 @@
-<img width="508" height="625" alt="image" src="https://github.com/user-attachments/assets/d4efcf61-bdd8-4250-b392-caedd5a58701" />
+<img width="508" height="625" alt="image" src="https://github.com/user-attachments/assets/d4efcf61-bdd8-4250-b392-caedd5a58701" />\n
 [1] NAND SR Latch & Truth Table
 
 
